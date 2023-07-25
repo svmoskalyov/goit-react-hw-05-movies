@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
-const API_KEY = '634387309f6bc4d8e17fedbf5dc6be14';
+const API_KEY = '278b385678e87aadeaa1d6710e36e714';
 
 export const getTrending = async () => {
   try {
